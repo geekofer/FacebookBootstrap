@@ -26,6 +26,10 @@ body{
     padding: 15px 5px;
     line-height: 20px;
 }
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
 .navbar {
     border-radius: 4px;
 }
