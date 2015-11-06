@@ -11,7 +11,6 @@ body{
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
 }
 /*#General*/
 
@@ -85,5 +84,82 @@ body{
     right: 14px;
     color: #A5A4A4;
 }
-
 /*#Navigation*/
+
+/*Comments*/
+
+.thumbnail-post{
+	padding: 0
+}
+.title-post{
+	color: rgb(58, 87, 149);
+	font-weight: bold;
+}
+.links-post{
+	border-top: 1px solid #ddd;
+    padding: 9px;
+    background: rgb(246, 247, 248);
+}
+.link-post, .link-post:hover {
+	font-weight: bold;
+	padding: 0 5px;
+	color: rgb(127, 127, 127);
+}
+.time-post:after{
+	font-family:'FontAwesome';
+	content: "\f017";
+	padding-left: 5px;
+}
+.image-post{
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.image-post-media{
+	display: block;
+	width: 100
+}
+.link-post.active{
+	color: #5890ff !important;
+}
+.image-post-full{
+	width: 100% !important;
+    height: 200px;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.nav-grand-profile{
+	border-top: 1px solid #ddd;
+}
+.nav-grand-profile li > a{
+	border-radius: 0;
+	color: #3b5998;
+	font-weight: bold;
+	border-right: 1px solid #e9eaed;
+	border-left: 1px solid #e9eaed;
+}
+.nav-grand-profile li > a:hover{
+	background: #f6f7f8;
+    text-decoration: none
+}
+.nav-grand-profile >li+li {
+    margin-left: 0px;
+}
+.nav-grand-profile>li.active>a, .nav-grand-profile>li.active>a:focus, .nav-grand-profile>li.active>a:hover {
+    color: #000;
+    background-color: transparent;
+}
+.thumbnail-grand-profile{
+	padding: 0
+}
+.caption-grand-profile{
+	position: absolute;
+	top: 0;
+}
+.title-grand-profile{
+	color: #fff;
+    text-rendering: optimizelegibility;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);
+}
+/*#Comments*/
